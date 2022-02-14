@@ -1892,7 +1892,7 @@ break
               total = math(`${groups.length}*${privat.length}`)
               
         
-               menu =`S H I P M A N B O T`
+               menu =`ANTERO`
 
                buttons =  [
     {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
@@ -2049,7 +2049,7 @@ Kalau mau sewa Antero chat *OWNER* yah
               latensie = speed() - timestampe
               total = math(`${groups.length}*${privat.length}`)
               
-           menu =`S H I P M A N B O T`
+           menu =`ANTERO`
 
                buttons =  [
     {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
@@ -2117,7 +2117,7 @@ Platform : *${os.platform()}*
               latensie = speed() - timestampe
               total = math(`${groups.length}*${privat.length}`)
               
-           menu =`S H I P M A N B O T`
+           menu =`ANTERO`
 
                buttons =  [
     {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
@@ -2188,7 +2188,7 @@ Platform : *${os.platform()}*
               latensie = speed() - timestampe
               total = math(`${groups.length}*${privat.length}`)
               
-           menu =`S H I P M A N B O T`
+           menu =`ANTERO`
 
                buttons =  [
     {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
@@ -2246,7 +2246,7 @@ Platform : *${os.platform()}*
               latensie = speed() - timestampe
               total = math(`${groups.length}*${privat.length}`)
               
-           menu =`S H I P M A N B O T`
+           menu =`ANTERO`
 
                buttons =  [
     {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
@@ -2304,7 +2304,7 @@ Platform : *${os.platform()}*
               latensie = speed() - timestampe
               total = math(`${groups.length}*${privat.length}`)
               
-           menu =`S H I P M A N B O T`
+           menu =`ANTERO`
 
                buttons =  [
     {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
@@ -2368,7 +2368,7 @@ Platform : *${os.platform()}*
               total = math(`${groups.length}*${privat.length}`)
               
       
- menu =`S H I P M A N B O T`
+ menu =`ANTERO`
 
 
 
@@ -2430,7 +2430,7 @@ Platform : *${os.platform()}*
               total = math(`${groups.length}*${privat.length}`)
               
       
- menu =`S H I P M A N B O T`
+ menu =`ANTERO`
                buttons =  [
     {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
 ]
@@ -2494,7 +2494,7 @@ Platform : *${os.platform()}*
               total = math(`${groups.length}*${privat.length}`)
               
       
- menu =`S H I P M A N B O T`
+ menu =`ANTERO`
 
                buttons =  [
     {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
@@ -2556,7 +2556,7 @@ case 'bokepmenu':
               total = math(`${groups.length}*${privat.length}`)
               
       
- menu =`S H I P M A N B O T`
+ menu =`ANTERO`
 
                buttons =  [
     {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
@@ -2745,7 +2745,7 @@ Platform : *${os.platform()}*
               total = math(`${groups.length}*${privat.length}`)
               
       
- menu =`S H I P M A N B O T`
+ menu =`ANTERO`
                buttons =  [
     {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
 ]
