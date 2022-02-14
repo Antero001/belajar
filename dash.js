@@ -1045,49 +1045,49 @@ case 'textpro':
 
 wibu = `
 🐋「 Text Pro Me 」🐋
-
-🌹 ${prefix}blackpink text
-🌹 ${prefix}neon text
-🌹 ${prefix}greenneon text
-🌹 ${prefix}advanceglow text
-🌹 ${prefix}futureneon text
-🌹 ${prefix}sandwriting text
-🌹 ${prefix}sandsummer text
-🌹 ${prefix}sandengraved text
-🌹 ${prefix}metaldark text
-🌹 ${prefix}neonlight text
-🌹 ${prefix}holographic text
-🌹 ${prefix}text1917 text
-🌹 ${prefix}minion text
-🌹 ${prefix}deluxesilver text
-🌹 ${prefix}newyearcard text
-🌹 ${prefix}bloodfrosted text
-🌹 ${prefix}halloween text
-🌹 ${prefix}jokerlogo text
-🌹 ${prefix}fireworksparkle text
-🌹 ${prefix}natureleaves text
-🌹 ${prefix}bokeh text
-🌹 ${prefix}toxic text
-🌹 ${prefix}strawberry text
-🌹 ${prefix}box3d text
-🌹 ${prefix}roadwarning text
-🌹 ${prefix}breakwall text
-🌹 ${prefix}icecold text
-🌹 ${prefix}luxury text
-🌹 ${prefix}cloud text
-🌹 ${prefix}summersand text
-🌹 ${prefix}horrorblood text
-🌹 ${prefix}thunder text
-🌹 ${prefix}pornhub text1 text2
-🌹 ${prefix}glitch text1 text2
-🌹 ${prefix}avenger text1 text2
-🌹 ${prefix}space text1 text2
-🌹 ${prefix}ninjalogo text1 text2
-🌹 ${prefix}marvelstudio text1 text2
-🌹 ${prefix}lionlogo text1 text2
-🌹 ${prefix}wolflogo text1 text2
-🌹 ${prefix}steel3d text1 text2
-🌹 ${prefix}wallgravity text1 text2
+-------------------------
+| ${prefix}blackpink text
+| ${prefix}neon text
+| ${prefix}greenneon text
+| ${prefix}advanceglow text
+| ${prefix}futureneon text
+| ${prefix}sandwriting text
+| ${prefix}sandsummer text
+| ${prefix}sandengraved text
+| ${prefix}metaldark text
+| ${prefix}neonlight text
+| ${prefix}holographic text
+| ${prefix}text1917 text
+| ${prefix}minion text
+| ${prefix}deluxesilver text
+| ${prefix}newyearcard text
+| ${prefix}bloodfrosted text
+| ${prefix}halloween text
+| ${prefix}jokerlogo text
+| ${prefix}fireworksparkle text
+| ${prefix}natureleaves text
+| ${prefix}bokeh text
+| ${prefix}toxic text
+| ${prefix}strawberry text
+| ${prefix}box3d text
+| ${prefix}roadwarning text
+| ${prefix}breakwall text
+| ${prefix}icecold text
+| ${prefix}luxury text
+| ${prefix}cloud text
+| ${prefix}summersand text
+| ${prefix}horrorblood text
+| ${prefix}thunder text
+| ${prefix}pornhub text1 text2
+| ${prefix}glitch text1 text2
+| ${prefix}avenger text1 text2
+| ${prefix}space text1 text2
+| ${prefix}ninjalogo text1 text2
+| ${prefix}marvelstudio text1 text2
+| ${prefix}lionlogo text1 text2
+| ${prefix}wolflogo text1 text2
+| ${prefix}steel3d text1 text2
+| ${prefix}wallgravity text1 text2
 `
 sendButMessage(from, wibu, `©Created by Antero`, [
           {
@@ -1103,26 +1103,26 @@ case 'wibu2':
 case 'wibumenu2':
 wibu = `
 🐋 WIBU MENU 2 🐋
-
-🌹${prefix}chiisaihentai
-🌹${prefix}trap
-🌹${prefix}blowjob
-🌹${prefix}yaoi
-🌹${prefix}ecchi
-🌹${prefix}hentai
-🌹${prefix}ahegao
-🌹${prefix}hololewd
-🌹${prefix}sideoppai
-🌹${prefix}animefeets
-🌹${prefix}animebooty
-🌹${prefix}animethighss
-🌹${prefix}hentaiparadise
-🌹${prefix}animearmpits
-🌹${prefix}hentaifemdom
-🌹${prefix}lewdanimegirls
-🌹${prefix}biganimetiddies
-🌹${prefix}animebellybutton
-🌹${prefix}hentai4everyone
+-------------------
+|${prefix}chiisaihentai
+|${prefix}trap
+|${prefix}blowjob
+|${prefix}yaoi
+|${prefix}ecchi
+|${prefix}hentai
+|${prefix}ahegao
+|${prefix}hololewd
+|${prefix}sideoppai
+|${prefix}animefeets
+|${prefix}animebooty
+|${prefix}animethighss
+|${prefix}hentaiparadise
+|${prefix}animearmpits
+|${prefix}hentaifemdom
+|${prefix}lewdanimegirls
+|${prefix}biganimetiddies
+|${prefix}animebellybutton
+|${prefix}hentai4everyone
 `
                    sendButMessage(from, wibu, `©Created by Antero`, [
           {
@@ -1892,7 +1892,7 @@ break
               total = math(`${groups.length}*${privat.length}`)
               
         
-               menu =`S H I P M A N B O T`
+               menu =`OREOBOT`
 
                buttons =  [
     {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
@@ -2049,7 +2049,7 @@ Kalau mau sewa Antero chat *OWNER* yah
               latensie = speed() - timestampe
               total = math(`${groups.length}*${privat.length}`)
               
-           menu =`S H I P M A N B O T`
+           menu =`OREOBOT`
 
                buttons =  [
     {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
@@ -2117,7 +2117,7 @@ Platform : *${os.platform()}*
               latensie = speed() - timestampe
               total = math(`${groups.length}*${privat.length}`)
               
-           menu =`S H I P M A N B O T`
+           menu =`OREOBOT`
 
                buttons =  [
     {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
@@ -2188,7 +2188,7 @@ Platform : *${os.platform()}*
               latensie = speed() - timestampe
               total = math(`${groups.length}*${privat.length}`)
               
-           menu =`S H I P M A N B O T`
+           menu =`OREOBOT`
 
                buttons =  [
     {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
@@ -2246,7 +2246,7 @@ Platform : *${os.platform()}*
               latensie = speed() - timestampe
               total = math(`${groups.length}*${privat.length}`)
               
-           menu =`S H I P M A N B O T`
+           menu =`OREOBOT`
 
                buttons =  [
     {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
@@ -2304,7 +2304,7 @@ Platform : *${os.platform()}*
               latensie = speed() - timestampe
               total = math(`${groups.length}*${privat.length}`)
               
-           menu =`S H I P M A N B O T`
+           menu =`OREOBOT`
 
                buttons =  [
     {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
@@ -2368,7 +2368,7 @@ Platform : *${os.platform()}*
               total = math(`${groups.length}*${privat.length}`)
               
       
- menu =`S H I P M A N B O T`
+ menu =`OREOBOT`
 
 
 
@@ -2430,7 +2430,7 @@ Platform : *${os.platform()}*
               total = math(`${groups.length}*${privat.length}`)
               
       
- menu =`S H I P M A N B O T`
+ menu =`OREOBOT`
                buttons =  [
     {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
 ]
@@ -2494,7 +2494,7 @@ Platform : *${os.platform()}*
               total = math(`${groups.length}*${privat.length}`)
               
       
- menu =`S H I P M A N B O T`
+ menu =`OREOBOT`
 
                buttons =  [
     {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
@@ -2505,23 +2505,23 @@ Platform : *${os.platform()}*
                contentText: `${menu}`,
                footerText:  `🐋 𝐋𝐈𝐒𝐓 𝐌𝐄𝐍𝐔 🐋
  
-🌹  ${prefix}update
-🌹  ${prefix}level
-🌹  ${prefix}rules
-🌹  ${prefix}profile
-🌹  ${prefix}waktu
-🌹  ${prefix}botstat
-🌹  ${prefix}sewabot
-🌹  ${prefix}listsewa
-🌹  ${prefix}owner
-🌹  ${prefix}ping
-🌹  ${prefix}runtime
-🌹  ${prefix}donasi
-🌹  ${prefix}leaderboard
-🌹  ${prefix}cekpremium
-🌹  ${prefix}listpremium
-🌹  ${prefix}sourcecode
-🌹  ${prefix}bugreport *keluhan*
+|  ${prefix}update
+|  ${prefix}level
+|  ${prefix}rules
+|  ${prefix}profile
+|  ${prefix}waktu
+|  ${prefix}botstat
+|  ${prefix}sewabot
+|  ${prefix}listsewa
+|  ${prefix}owner
+|  ${prefix}ping
+|  ${prefix}runtime
+|  ${prefix}donasi
+|  ${prefix}leaderboard
+|  ${prefix}cekpremium
+|  ${prefix}listpremium
+|  ${prefix}sourcecode
+|  ${prefix}bugreport *keluhan*
 
 
 
@@ -2558,7 +2558,7 @@ Platform : *${os.platform()}*
               total = math(`${groups.length}*${privat.length}`)
               
       
- menu =`S H I P M A N B O T`
+ menu =`OREOBOT`
                buttons =  [
     {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
 ]
