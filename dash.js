@@ -1892,7 +1892,7 @@ break
               total = math(`${groups.length}*${privat.length}`)
               
         
-               menu =`S H I P M A N B O T`
+               menu =`OREOBOT`
 
                buttons =  [
     {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
@@ -2049,7 +2049,7 @@ Kalau mau sewa Antero chat *OWNER* yah
               latensie = speed() - timestampe
               total = math(`${groups.length}*${privat.length}`)
               
-           menu =`S H I P M A N B O T`
+           menu =`OREOBOT`
 
                buttons =  [
     {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
@@ -2117,7 +2117,7 @@ Platform : *${os.platform()}*
               latensie = speed() - timestampe
               total = math(`${groups.length}*${privat.length}`)
               
-           menu =`S H I P M A N B O T`
+           menu =`OREOBOT`
 
                buttons =  [
     {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
@@ -2188,7 +2188,7 @@ Platform : *${os.platform()}*
               latensie = speed() - timestampe
               total = math(`${groups.length}*${privat.length}`)
               
-           menu =`S H I P M A N B O T`
+           menu =`OREOBOT`
 
                buttons =  [
     {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
@@ -2246,7 +2246,7 @@ Platform : *${os.platform()}*
               latensie = speed() - timestampe
               total = math(`${groups.length}*${privat.length}`)
               
-           menu =`S H I P M A N B O T`
+           menu =`OREOBOT`
 
                buttons =  [
     {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
@@ -2304,7 +2304,7 @@ Platform : *${os.platform()}*
               latensie = speed() - timestampe
               total = math(`${groups.length}*${privat.length}`)
               
-           menu =`S H I P M A N B O T`
+           menu =`OREOBOT`
 
                buttons =  [
     {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
@@ -2368,7 +2368,7 @@ Platform : *${os.platform()}*
               total = math(`${groups.length}*${privat.length}`)
               
       
- menu =`S H I P M A N B O T`
+ menu =`OREOBOT`
 
 
 
@@ -2430,7 +2430,7 @@ Platform : *${os.platform()}*
               total = math(`${groups.length}*${privat.length}`)
               
       
- menu =`S H I P M A N B O T`
+ menu =`OREOBOT`
                buttons =  [
     {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
 ]
@@ -2494,7 +2494,7 @@ Platform : *${os.platform()}*
               total = math(`${groups.length}*${privat.length}`)
               
       
- menu =`S H I P M A N B O T`
+ menu =`OREOBOT`
 
                buttons =  [
     {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
@@ -2542,8 +2542,8 @@ Platform : *${os.platform()}*
                prep = await ship.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply, contextInfo:{ forwardingScore:508, isForwarded:true, mentionedJid:[senderr]}})
                           ship.relayWAMessage(prep)
                break
-case 'bokepmenu':
-        case  'menubokep':
+case 'DI MATIKAN':
+        case  'DI MATIKAN':
         if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: freply})
               groups = ship.chats.array.filter(v => v.jid.endsWith('g.us'))
               privat = ship.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
@@ -2556,7 +2556,7 @@ case 'bokepmenu':
               total = math(`${groups.length}*${privat.length}`)
               
       
- menu =`S H I P M A N B O T`
+ menu =`OREOBOT`
 
                buttons =  [
     {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
@@ -2567,30 +2567,30 @@ case 'bokepmenu':
                contentText: `${menu}`,
                footerText:  `🐋 𝐋𝐈𝐒𝐓 𝐌𝐄𝐍𝐔 🐋
 
-🌹 ${prefix}bokep1
-🌹 ${prefix}bokep2
-🌹 ${prefix}bokep3
-🌹 ${prefix}bokep4
-🌹 ${prefix}bokep5
-🌹 ${prefix}bokep6
-🌹 ${prefix}bokep7
-🌹 ${prefix}bokep8
-🌹 ${prefix}bokep9
-🌹 ${prefix}bokep10
-🌹 ${prefix}bokep11
-🌹 ${prefix}bokep12
-🌹 ${prefix}bokep13
-🌹 ${prefix}bokep14
-🌹 ${prefix}bokep15
-🌹 ${prefix}bokep16
-🌹 ${prefix}bokep17
-🌹 ${prefix}bokep18
-🌹 ${prefix}bokep19
-🌹 ${prefix}bokep20
-🌹 ${prefix}bokep21
-🌹 ${prefix}bokep22
-🌹 ${prefix}bokep23
-🌹 ${prefix}bokep24
+🌹 ${prefix}ERROR
+🌹 ${prefix}ERROR
+🌹 ${prefix}ERROR
+🌹 ${prefix}ERROR
+🌹 ${prefix}ERROR
+🌹 ${prefix}ERROR
+🌹 ${prefix}ERROR
+🌹 ${prefix}ERROR
+🌹 ${prefix}ERROR
+🌹 ${prefix}ERROR
+🌹 ${prefix}ERROR
+🌹 ${prefix}ERROR
+🌹 ${prefix}ERROR
+🌹 ${prefix}ERROR
+🌹 ${prefix}ERROR
+🌹 ${prefix}ERROR
+🌹 ${prefix}ERROR
+🌹 ${prefix}ERROR
+🌹 ${prefix}ERROR
+🌹 ${prefix}ERROR
+🌹 ${prefix}ERROR
+🌹 ${prefix}ERROR
+🌹 ${prefix}ERROR
+🌹 ${prefix}ERROR
               
               
 
@@ -2745,7 +2745,7 @@ Platform : *${os.platform()}*
               total = math(`${groups.length}*${privat.length}`)
               
       
- menu =`S H I P M A N B O T`
+ menu =`OREOBOT`
                buttons =  [
     {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
 ]
