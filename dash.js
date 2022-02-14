@@ -1860,8 +1860,8 @@ break
    case 'command':
    if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: freply})
                list = []
-               listmenu = [`groupmenu`,`photoky`,`ephoto`,`imageefek`,`randomimage`,`wibu2`,`storymenu`,`bokepmenu`,`randomtext`,`islammenu`,`wibumenu`,`stickermenu`,`ownermenu`,`gamemenu`,`funmenu`,`downloadmenu`,`infomenu`,`othermenu`,`owner`,`dashgroup`,`sewabot`,`allmenu`]
-               listmenuu = [`Menu Group`,`Photo Oky`,`Ephoto Menu`,`imageefek`,`Random Image`,`Wibu Menu`,`Movie&Story`,`Bokep`,`RandomText`,`Islam Menu`,`Wibu Menu`,`Sticker Menu`,`Owner Command`,`Game Menu`,`For Fun Menu`,`Downloader`,`Info Menu`,`Menu Lainnya`,`OwnerBot`,`Official Group`,`Rent this Bot`,`All Menu`]
+               listmenu = [`groupmenu`,`photoky`,`ephoto`,`imageefek`,`randomimage`,`wibu2`,`storymenu`,`Loading...`,`randomtext`,`islammenu`,`wibumenu`,`stickermenu`,`ownermenu`,`gamemenu`,`funmenu`,`downloadmenu`,`infomenu`,`othermenu`,`owner`,`dashgroup`,`sewabot`,`allmenu`]
+               listmenuu = [`Menu Group`,`Photo Oky`,`Ephoto Menu`,`imageefek`,`Random Image`,`Wibu Menu`,`Movie&Story`,`Loading..`,`RandomText`,`Islam Menu`,`Wibu Menu`,`Sticker Menu`,`Owner Command`,`Game Menu`,`For Fun Menu`,`Downloader`,`Info Menu`,`Menu Lainnya`,`OwnerBot`,`Official Group`,`Rent this Bot`,`All Menu`]
                nombor = 1
                startnum = 0
                for (let x of listmenu) {
@@ -2542,8 +2542,8 @@ Platform : *${os.platform()}*
                prep = await ship.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply, contextInfo:{ forwardingScore:508, isForwarded:true, mentionedJid:[senderr]}})
                           ship.relayWAMessage(prep)
                break
-case 'bokepmenu':
-        case  'menubokep':
+case 'error:
+        case  'error'
         if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: freply})
               groups = ship.chats.array.filter(v => v.jid.endsWith('g.us'))
               privat = ship.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
@@ -2567,30 +2567,30 @@ case 'bokepmenu':
                contentText: `${menu}`,
                footerText:  `🐋 𝐋𝐈𝐒𝐓 𝐌𝐄𝐍𝐔 🐋
 
-🌹 ${prefix}bokep1
-🌹 ${prefix}bokep2
-🌹 ${prefix}bokep3
-🌹 ${prefix}bokep4
-🌹 ${prefix}bokep5
-🌹 ${prefix}bokep6
-🌹 ${prefix}bokep7
-🌹 ${prefix}bokep8
-🌹 ${prefix}bokep9
-🌹 ${prefix}bokep10
-🌹 ${prefix}bokep11
-🌹 ${prefix}bokep12
-🌹 ${prefix}bokep13
-🌹 ${prefix}bokep14
-🌹 ${prefix}bokep15
-🌹 ${prefix}bokep16
-🌹 ${prefix}bokep17
-🌹 ${prefix}bokep18
-🌹 ${prefix}bokep19
-🌹 ${prefix}bokep20
-🌹 ${prefix}bokep21
-🌹 ${prefix}bokep22
-🌹 ${prefix}bokep23
-🌹 ${prefix}bokep24
+🌹 ${prefix}Loading..
+🌹 ${prefix}Loading..
+🌹 ${prefix}Loading..
+🌹 ${prefix}Loading..
+🌹 ${prefix}Loading..
+🌹 ${prefix}Loading..
+🌹 ${prefix}Loading..
+🌹 ${prefix}Loading..
+🌹 ${prefix}Loading..
+🌹 ${prefix}Loading..
+🌹 ${prefix}Loading..
+🌹 ${prefix}Loading..
+🌹 ${prefix}Loading..
+🌹 ${prefix}Loading..
+🌹 ${prefix}Loading..
+🌹 ${prefix}Loading..
+🌹 ${prefix}Loading..
+🌹 ${prefix}Loading..
+🌹 ${prefix}Loading..
+🌹 ${prefix}Loading..
+🌹 ${prefix}Loading..
+🌹 ${prefix}Loading..
+🌹 ${prefix}Loading..
+🌹 ${prefix}Loading..
               
               
 
@@ -2612,123 +2612,123 @@ Platform : *${os.platform()}*
                prep = await ship.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply, contextInfo:{ forwardingScore:508, isForwarded:true, mentionedJid:[senderr]}})
                           ship.relayWAMessage(prep)
                break
-   //addfiturbokep
-                case 'bokep1':				 
+   //addfiturLoading..
+                case 'Loading..2:				 
                 if (!isPremium) return reply(`Kamu bukan user premium, kirim perintah *${prefix}buypremium* untuk membeli premium`)
 				qute = fs.readFileSync('./media/Menu2.jpg') 
 				   ship.sendMessage(from, qute, image, { quoted: das, caption: '*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/h2nygxbyb6n9cyo/VID-20210107-WA1468.mp4/file' })
 				   break
-				   case 'bokep2':
+				   case 'Loading..3:
 				if (!isPremium) return reply(`Kamu bukan user premium, kirim perintah *${prefix}buypremium* untuk membeli premium`)
 				qute = fs.readFileSync('./media/Menu2.jpg') 
 				   ship.sendMessage(from, qute, image, { quoted: das, caption: '*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/pk8hozohzdc076c/VID-20210107-WA1466.mp4/file' })
 				   break
-				   case 'bokep3':	
+				   case 'Loading..4:	
 				if (!isPremium) return reply(`Kamu bukan user premium, kirim perintah *${prefix}buypremium* untuk membeli premium`)
 				qute = fs.readFileSync('./media/Menu2.jpg') 
 				   ship.sendMessage(from, qute, image, { quoted: das, caption: '*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/112q3u286tnvzjo/VID-20210107-WA1467.3gp/file' })				    
 				   break
-				   case 'bokep4':	
+				   case 'Loading..5:	
 				if (!isPremium) return reply(`Kamu bukan user premium, kirim perintah *${prefix}buypremium* untuk membeli premium`)
 				qute = fs.readFileSync('./media/Menu2.jpg') 
 				   ship.sendMessage(from, qute, image, { quoted: das, caption: '*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/arpphhxsv94ak0r/VID-20210107-WA1462.mp4/file' })				   
 				   break
-				   case 'bokep5':	
+				   case 'Loading..6:	
 				if (!isPremium) return reply(`Kamu bukan user premium, kirim perintah *${prefix}buypremium* untuk membeli premium`)
 				qute = fs.readFileSync('./media/Menu2.jpg') 
 				   ship.sendMessage(from, qute, image, { quoted: das, caption: '*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/us3f4j62emftbrf/VID-20210107-WA1463.mp4/file' })				   
 				   break
-				   case 'bokep6':
+				   case 'Loading..7:
 				if (!isPremium) return reply(`Kamu bukan user premium, kirim perintah *${prefix}buypremium* untuk membeli premium`)
 				qute = fs.readFileSync('./media/Menu2.jpg') 
 				   ship.sendMessage(from, qute, image, { quoted: das, caption: '*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/v4033tkl16hgf2b/VID-20210107-WA1459.mp4/file' })				   
 				   break
-                   case 'bokep7':
+                   case 'Loading..8:
                    if (!isPremium) return reply(`Kamu bukan user premium, kirim perintah *${prefix}buypremium* untuk membeli premium`)
 				qute = fs.readFileSync('./media/Menu2.jpg') 
 				   ship.sendMessage(from, qute, image, { quoted: das, caption: '*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/3scnim6d1x4b8ie/VID-20210107-WA1461.mp4/file' })				   
 				   break
-		           case 'bokep8':	
+		           case 'Loading..9:	
 		        if (!isPremium) return reply(`Kamu bukan user premium, kirim perintah *${prefix}buypremium* untuk membeli premium`)
 				qute = fs.readFileSync('./media/Menu2.jpg') 
 				   ship.sendMessage(from, qute, image, { quoted: das, caption: '*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/dx9tklonu0eq36w/VID-20210107-WA1464.mp4/file' })				   
 				   break
-				   case 'bokep10':	
+				   case 'Loading..10	
 				if (!isPremium) return reply(`Kamu bukan user premium, kirim perintah *${prefix}buypremium* untuk membeli premium`)
 				qute = fs.readFileSync('./media/Menu2.jpg') 
 				   ship.sendMessage(from, qute, image, { quoted: das, caption: '*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/snwja297dv4zvtl/VID-20210107-WA0036.mp4/file' })				   
 				   break
-				   case 'bokep11':	
+				   case 'Loading..11	
 				if (!isPremium) return reply(`Kamu bukan user premium, kirim perintah *${prefix}buypremium* untuk membeli premium`)
 				qute = fs.readFileSync('./media/Menu2.jpg') 
 				   ship.sendMessage(from, qute, image, { quoted: das, caption: '*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/60dqek0mqhyt6rn/VID-20210107-WA1530.mp4/file' })				   
 				   break
-				   case 'bokep12':	
+				   case 'Loading..12	
 			    if (!isPremium) return reply(`Kamu bukan user premium, kirim perintah *${prefix}buypremium* untuk membeli premium`)
 				qute = fs.readFileSync('./media/Menu2.jpg') 
 				   ship.sendMessage(from, qute, image, { quoted: das, caption: '*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/ni2mcdknb6zn50t/VID-20210107-WA1532.mp4/file' })				   
 				   break
-				   case 'bokep13':	
+				   case 'Loading..13	
 				if (!isPremium) return reply(`Kamu bukan user premium, kirim perintah *${prefix}buypremium* untuk membeli premium`)
 				qute = fs.readFileSync('./media/Menu2.jpg') 
 				   ship.sendMessage(from, qute, image, { quoted: das, caption: '*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/i9t96lrmd9lm71z/VID-20210107-WA1542.mp4/file' })				   
 				   break
-				   case 'bokep14':	
+				   case 'Loading..14	
 				if (!isPremium) return reply(`Kamu bukan user premium, kirim perintah *${prefix}buypremium* untuk membeli premium`)
 				qute = fs.readFileSync('./media/Menu2.jpg') 
 				   ship.sendMessage(from, qute, image, { quoted: das, caption: '*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/tjqdfmp8g08dt4e/VID-20210107-WA1536.mp4/file' })				   
 				   break
-	               case 'bokep15':
+	               case 'bLoading..15
 	          if (!isPremium) return reply(`Kamu bukan user premium, kirim perintah *${prefix}buypremium* untuk membeli premium`)
 				qute = fs.readFileSync('./media/Menu2.jpg') 
 				   ship.sendMessage(from, qute, image, { quoted: das, caption: '*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/x034q0s16u9vyhy/VID-20210107-WA1537.mp4/file' })				   
 				   break
-    	           case 'bokep16':
+    	           case 'Loading..16
                if (!isPremium) return reply(`Kamu bukan user premium, kirim perintah *${prefix}buypremium* untuk membeli premium`)
 				qute = fs.readFileSync('./media/Menu2.jpg') 
 				   ship.sendMessage(from, qute, image, { quoted: das, caption: '*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/mgmynqghjnon2q7/VID-20210107-WA1533.mp4/file' })				   
 				   break
-				   case 'bokep17':	
+				   case 'Loading..17':	
 				if (!isPremium) return reply(`Kamu bukan user premium, kirim perintah *${prefix}buypremium* untuk membeli premium`)
 				qute = fs.readFileSync('./media/Menu2.jpg') 
 				   ship.sendMessage(from, qute, image, { quoted: das, caption: '*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/ecly00at6adxs20/VID-20210107-WA1540.mp4/file' })				   
 				   break
-				   case 'bokep18':
+				   case 'Loading..18':
 				if (!isPremium) return reply(`Kamu bukan user premium, kirim perintah *${prefix}buypremium* untuk membeli premium`)
 				qute = fs.readFileSync('./media/Menu2.jpg') 
 				   ship.sendMessage(from, qute, image, { quoted: das, caption: '*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/7qkn8nuog22jsco/VID-20210107-WA1534.mp4/file' })				   
 				   break
-				   case 'bokep19':				 
+				   case 'Loading..19':				 
 				if (!isPremium) return reply(`Kamu bukan user premium, kirim perintah *${prefix}buypremium* untuk membeli premium`)
 				qute = fs.readFileSync('./media/Menu2.jpg') 
 				   ship.sendMessage(from, qute, image, { quoted: das, caption: '*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/vza5uaben93dfdr/VID-20210107-WA1527.mp4/file' })				   
 				   break
-				   case 'bokep20':			
+				   case 'Loading..20':			
 				if (!isPremium) return reply(`Kamu bukan user premium, kirim perintah *${prefix}buypremium* untuk membeli premium`)
 				qute = fs.readFileSync('./media/Menu2.jpg') 
 				   ship.sendMessage(from, qute, image, { quoted: das, caption: '*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/l7uzd4v9p95wpeb/VID-20210107-WA1541.mp4/file' })				   
 				   break
-				   case 'bokep21':				 
+				   case 'Loading..21':				 
 				if (!isPremium) return reply(`Kamu bukan user premium, kirim perintah *${prefix}buypremium* untuk membeli premium`)
 				qute = fs.readFileSync('./media/Menu2.jpg') 
 				   ship.sendMessage(from, qute, image, { quoted: das, caption: '*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/icpnxsr18j6l2pp/VID-20210107-WA1528.mp4/file' })				   
 				   break
-				   case 'bokep22':		
+				   case 'Loading..22':		
 				if (!isPremium) return reply(`Kamu bukan user premium, kirim perintah *${prefix}buypremium* untuk membeli premium`)
 				qute = fs.readFileSync('./media/Menu2.jpg') 
 				   ship.sendMessage(from, qute, image, { quoted: das, caption: '*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/cscj9taoq5s5oj9/VID-20210107-WA1538.mp4/file' })				   
 				   break
-				   case 'bokep23':	
+				   case 'Loading..23':	
 				if (!isPremium) return reply(`Kamu bukan user premium, kirim perintah *${prefix}buypremium* untuk membeli premium`)
 				qute = fs.readFileSync('./media/Menu2.jpg') 
 				   ship.sendMessage(from, qute, image, { quoted: das, caption: '*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/saer161lthn4sy3/VID-20210107-WA1525.mp4/file' })				   
 				   break
-				   case 'bokep24':				 
+				   case 'Loading..24':				 
 				if (!isPremium) return reply(`Kamu bukan user premium, kirim perintah *${prefix}buypremium* untuk membeli premium`)
 				qute = fs.readFileSync('./media/Menu2.jpg') 
 				   ship.sendMessage(from, qute, image, { quoted: das, caption: '*SEMOGA DI BERI HIDAYAH*\nLink Download \\nhttps://www.mediafire.com/file/9jy3nj2b2ljjzxb/VID-20210107-WA1539.mp4/file' })				   
 				   break
-				   case 'bokep25':		
+				   case 'Loading..25':		
 		 
 
    case 'islammenu':
